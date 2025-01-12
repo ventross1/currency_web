@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #484848;
+}
+.currency-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.currency {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffdede;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: calc(25% - 20px);
+  box-sizing: border-box;
+}
+.currency h4 {
+  margin: 0 0 5px;
+  font-size: 16px;
+  color: #333;
+}
+.currency p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+.dropdown {
+  margin-bottom: 20px;
+}
